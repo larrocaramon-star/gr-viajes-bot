@@ -1,0 +1,40 @@
+{
+  "adultos": 3,
+  "cabina": "economy",
+
+  "origen": "MVD",
+
+  "tramos": [
+    {
+      "desde": "MVD",
+      "hasta": "JFK"
+    },
+    {
+      "desde": "JFK",
+      "hasta": "MIA"
+    },
+    {
+      "desde": "MIA",
+      "hasta": "MVD"
+    }
+  ],
+
+  "salida": {
+    "fecha": "2027-02-01",
+    "flexibilidad_dias": 3
+  },
+
+  "regreso": {
+    "fecha": "2027-02-21",
+    "flexibilidad_dias": 3
+  },
+
+  "dias_en_nueva_york": 6,
+
+  "hora_revision": [
+    "09:00",
+    "13:00",
+    "17:00",
+    "21:00"
+  ]
+}
