@@ -26,4 +26,4 @@ jobs:
           TOKEN_TELEGRAM: ${{ secrets.TOKEN_TELEGRAM }}
           CHAT_ID: ${{ secrets.CHAT_ID }}
           API_KEY: ${{ secrets.API_KEY }}
-        run: python main.py
+        run: python enviar_prueba.py
